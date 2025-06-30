@@ -11,7 +11,8 @@
   border-radius: 4px;
   font-size: 16px;
   cursor: help;
-  z-index: 2; /* Make sure annotations appear above image */
+  z-index: 2;
+  border: 1px dashed red; /* This helps us see the boxes while testing */
 }
 
 .annotation .tooltiptext {
@@ -23,7 +24,7 @@
   border-radius: 5px;
   padding: 5px;
   position: absolute;
-  z-index: 3; /* Tooltip is above annotation */
+  z-index: 3;
   top: -40px;
   left: 50%;
   transform: translateX(-50%);
