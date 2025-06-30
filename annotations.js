@@ -10,7 +10,7 @@ const imageAnnotations = [
         reading: "つき",
         meaning: "moon",
         position: {
-          top: 80,   // pixels from top
+          top: 60,   // pixels from top
           left: 310, // pixels from left
           width: 40,
           height: 40
