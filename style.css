@@ -15,9 +15,10 @@
 /* Annotated region box */
 .annotation-region {
   position: absolute;
-  border: 2px solid rgba(255, 0, 0, 0.5); /* visual border for annotation */
+  border: 3px dashed lime;
+  background-color: rgba(0, 255, 0, 0.1);
   cursor: help;
-  box-sizing: border-box;
+  z-index: 2;
 }
 
 /* Highlight the annotation box on hover */
