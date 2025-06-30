@@ -6,25 +6,14 @@ const imageAnnotations = [
     year: 1886,
     kanji: [
       {
-        character: "月",
-        reading: "つき",
-        meaning: "moon",
+        character: "夜ノ景／廓ノ月",
+        reading: "yoru no kei / kuruwa no tsuki",
+        meaning: "Night Scene / Moon of the Pleasure Quarters",
         position: {
-          top: 40,   // pixels from top
-          left: 310, // pixels from left
-          width: 40,
-          height: 40
-        }
-      },
-      {
-        character: "廓",
-        reading: "くるわ",
-        meaning: "pleasure quarters",
-        position: {
-          top: 80,
-          left: 260,
-          width: 40,
-          height: 40
+          top: 45,
+          left: 435,
+          width: 120,
+          height: 180
         }
       }
     ]
