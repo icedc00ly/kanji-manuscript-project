@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   data.kanji.forEach(k => {
     const ann = document.createElement("div");
     ann.className = "annotation-region";
+    ann.style.position = "absolute";
     ann.style.top = `${k.position.top}%`;
     ann.style.left = `${k.position.left}%`;
     ann.style.width = `${k.position.width}%`;
