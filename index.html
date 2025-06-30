@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Kanji Manuscript Project</title>
+  <style>
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
   <h1>Kanji Manuscript Annotation Project</h1>
@@ -11,16 +17,15 @@
   <h2>Hoverable Kanji in the Artwork</h2>
   <p>Hover over the kanji in the image below to reveal its meaning.</p>
 
-<img src="kuruwa_no_tsuki.jpg" alt="Moon of the Pleasure Quarters by Yoshitoshi" usemap="#kanjiMap">
+  <img src="kuruwa_no_tsuki.jpg" usemap="#kanjiMap" width="500" alt="Moon of the Pleasure Quarters by Yoshitoshi">
 
   <map name="kanjiMap">
-    <!-- Adjust these coordinates to match the actual kanji's position in the image -->
-    <area shape="rect" coords="350,50,380,80" alt="月" title="Tsuki – Moon (月)">
-    <area shape="rect" coords="310,50,340,80" alt="廓" title="Kuruwa – Pleasure Quarters (廓)">
+    <!-- Test: a wide box to see if hover works -->
+    <area shape="rect" coords="100,100,400,300" alt="Test" title="This should appear when you hover here.">
   </map>
 
   <p style="margin-top: 2em; font-size: 0.9em; color: gray;">
-    Note: Tooltip locations are estimated. You can adjust the coordinates to match your desired kanji.
+    Tooltip area is a test. You can adjust coordinates once this works.
   </p>
 </body>
 </html>
