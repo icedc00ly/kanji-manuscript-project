@@ -11,7 +11,7 @@ const imageAnnotations = [
         meaning: "Night Scene / Moon of the Pleasure Quarters",
         position: {
           top: 45,
-          left: 435,
+          left: 310,
           width: 120,
           height: 180
         }
