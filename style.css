@@ -12,14 +12,15 @@
   display: block;
 }
 
-/* Annotated region box (invisible by default) */
+/* Annotated region box (invisible) */
 .annotation-region {
   position: absolute;
   cursor: help;
   z-index: 2;
+  /* no border or background */
 }
 
-/* Highlight the annotation box on hover */
+/* Optional: highlight area on hover */
 .annotation-region:hover::before {
   content: "";
   position: absolute;
@@ -27,7 +28,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 0, 0.3); /* optional hover highlight */
+  background: rgba(255, 255, 0, 0.25);
   border-radius: 4px;
   pointer-events: none;
 }
