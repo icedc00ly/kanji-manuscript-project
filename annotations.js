@@ -10,10 +10,10 @@ const imageAnnotations = [
         reading: "つき",
         meaning: "moon",
         position: {
-          top: 16,
-          left: 60,
-          width: 5,
-          height: 7
+          top: 80,   // pixels from top
+          left: 310, // pixels from left
+          width: 40,
+          height: 40
         }
       },
       {
@@ -21,10 +21,10 @@ const imageAnnotations = [
         reading: "くるわ",
         meaning: "pleasure quarters",
         position: {
-          top: 16,
-          left: 45,
-          width: 5,
-          height: 7
+          top: 80,
+          left: 260,
+          width: 40,
+          height: 40
         }
       }
     ]
