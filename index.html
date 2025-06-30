@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Kanji Manuscript Project</title>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Kanji Manuscript Annotation Project</h1>
@@ -14,19 +13,11 @@
   <p>Seen in travel texts like the <em>Tōkaidō</em> route. Appears in Edo-period manuscripts.</p>
 
   <h2>Image Example</h2>
-  <div class="image-container">
-    <img src="kuruwa_no_tsuki.jpg" alt="Yoshitoshi print" width="500">
+  <img src="kuruwa_no_tsuki.jpg" usemap="#kanjiMap" width="500" alt="Moon of the Pleasure Quarters by Yoshitoshi">
 
-    <!-- Hotspot over 月 -->
-    <div class="annotation-region" style="top: 15%; left: 68%; width: 25px; height: 25px;">
-      <span class="tooltiptext">Tsuki – Moon (月)</span>
-    </div>
-
-    <!-- Hotspot over 廓 -->
-    <div class="annotation-region" style="top: 15%; left: 58%; width: 25px; height: 25px;">
-      <span class="tooltiptext">Kuruwa – Pleasure Quarters (廓)</span>
-    </div>
-  </div>
+  <map name="kanjiMap">
+    <area shape="rect" coords="350,50,380,80" alt="月" title="Tsuki – Moon (月)">
+    <area shape="rect" coords="300,50,330,80" alt="帳" title="Kuruwa – Pleasure Quarters (帳)">
+  </map>
 </body>
 </html>
-
