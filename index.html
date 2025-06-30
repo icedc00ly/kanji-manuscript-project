@@ -8,16 +8,19 @@
   <h1>Kanji Manuscript Annotation Project</h1>
   <p>This is a small experimental site exploring how kanji in historical Japanese texts can be annotated for meaning and reading.</p>
 
-  <h2>Sample Kanji</h2>
-  <p><strong>道</strong> — <em>michi</em> (road, way)</p>
-  <p>Seen in travel texts like the <em>Tōkaidō</em> route. Appears in Edo-period manuscripts.</p>
+  <h2>Hoverable Kanji in the Artwork</h2>
+  <p>Hover over the kanji in the image below to reveal its meaning.</p>
 
-  <h2>Image Example</h2>
-  <img src="kuruwa_no_tsuki.jpg" usemap="#kanjiMap" width="500" alt="Moon of the Pleasure Quarters by Yoshitoshi">
+  <img src="kuruwa_no_tsuki.jpg" alt="Moon of the Pleasure Quarters by Yoshitoshi" usemap="#kanjiMap" width="500">
 
   <map name="kanjiMap">
+    <!-- Adjust these coordinates to match the actual kanji's position in the image -->
     <area shape="rect" coords="350,50,380,80" alt="月" title="Tsuki – Moon (月)">
-    <area shape="rect" coords="300,50,330,80" alt="帳" title="Kuruwa – Pleasure Quarters (帳)">
+    <area shape="rect" coords="310,50,340,80" alt="廓" title="Kuruwa – Pleasure Quarters (廓)">
   </map>
+
+  <p style="margin-top: 2em; font-size: 0.9em; color: gray;">
+    Note: Tooltip locations are estimated. You can adjust the coordinates to match your desired kanji.
+  </p>
 </body>
 </html>
