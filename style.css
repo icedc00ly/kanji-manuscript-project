@@ -50,3 +50,34 @@
   visibility: visible;
   opacity: 1;
 }
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.annotation-region {
+  position: absolute;
+  border: 2px solid rgba(255, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+
+.tooltip-text {
+  display: none;
+  position: absolute;
+  top: -1.5em;
+  left: 0;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.annotation-region:hover .tooltip-text {
+  display: block;
+}
+
